@@ -1,4 +1,98 @@
    
 body {
-    background-color: gray
+    background-color: lightgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ 
+#Box, #Box1, #Box2, #BoxN {
+    text-align: center;                           
+  color: rgb(128, 36, 0);
+ }
+
+ .readme-wrapper { 
+  text-align: center;
+ }
+
+ 
+.Boxes  {
+  margin: 2em;
+  padding: 2em;
+  border: solid;
+  border-radius:  10%;
+  width: 60%
+  }
+
+  :hover {
+    font: bold;
+    text-emphasis-color: red;
+    cursor: pointer;
+    
+  }
+
+  #Box  {
+    background-color: aqua;
+  }
+  
+  #Box1 {
+    background-color: beige;
+  }
+
+  #Box2 {
+    background-color: yellow;
+   }
+
+   #BoxN {
+     background-color: gray
+   }
+
+   .relative {
+     position: relative;
+   }
+
+   .absolute  {
+     position: absolute;
+   }
+
+   .fixed {
+     position: fixed; top: right;
+   }
+
+   .image  {
+    background-color: #D0E4F5;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 100% 0%;
+    left: 60px;
+    top: 50em;
+    width: 10%;
+  }
+
+  .favshows {
+    color: purple;
+  }
+  .shows  {
+    color: aquamarine;
+  }
+  #show1  {
+    color: darkmagenta
+  }
+  #show2  {
+    color:  darkorange   
+  }
+  #show3 {
+    color: darkturquoise
+  }
+  #show4 {
+    color: darkgreen
+  }
+  #show5 {
+    color: darkblue
+  }
+  .list {
+    border: 2px;  
+    border: solid;
+    border-color: black;
+    color: grey;
+    background-color: pink;
+    text-align: center;       
   }
